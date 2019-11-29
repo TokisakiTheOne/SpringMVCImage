@@ -22,7 +22,7 @@ public class ImageDaoImpl implements ImageDao {
 
     RowMapper<Image> rm = new RowMapper<Image>() {
         public Image mapRow(ResultSet rs, int rowNum) throws SQLException {
-            Image image = new Image(rs.getInt(1), rs.getString(2), rs.getString(3));
+            Image image = new Image(rs.getInt(1), rs.getString(2), rs.getString(3),rs.getString(4));
             return image;
         }
     };

@@ -1319,7 +1319,12 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="362" parent="358" name="PRIMARY">
+    <column id="362" parent="358" name="img_desc">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="363" parent="358" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>img_Id</ColNames>
       <Primary>1</Primary>

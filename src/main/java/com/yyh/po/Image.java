@@ -15,4 +15,5 @@ public class Image {
     private int imgId;
     private String imgName;
     private String imgUrl;
+    private String imgDesc;
 }

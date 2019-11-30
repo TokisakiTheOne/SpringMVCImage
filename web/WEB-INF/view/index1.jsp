@@ -18,9 +18,10 @@
 <c:forEach items="${imgs}" var="img">
     <p>
         <figure class="figure">
-            <img src="../../${img.imgUrl}.jpg" class="figure-img img-fluid rounded" alt="..." width="400px"
+            <img src="../../${img.imgUrl}.gif" class="figure-img img-fluid rounded" alt="..." width="400px"
                  height="300px">
             <figcaption class="figure-caption">${img.imgName}</figcaption>
+            <figcaption class="figure-caption">${img.imgDesc}</figcaption>
         </figure>
     </p>
 </c:forEach>
